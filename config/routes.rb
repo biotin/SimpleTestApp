@@ -55,4 +55,5 @@ Employees::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  root to: 'employees#index'
 end
